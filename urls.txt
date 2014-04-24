@@ -1,0 +1,7 @@
+http://localhost:2323
+http://localhost:2323/alicorns
+http://localhost:2323/unicorns
+http://localhost:2323/ponies
+http://localhost:2323/pegasi
+http://localhost:2323/dragons
+http://localhost:2323/zebras

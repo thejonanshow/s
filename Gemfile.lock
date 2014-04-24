@@ -1,0 +1,46 @@
+PATH
+  remote: ../../../ruby_agent
+  specs:
+    newrelic_rpm (3.8.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (2.3.18)
+      actionpack (= 2.3.18)
+    actionpack (2.3.18)
+      activesupport (= 2.3.18)
+      rack (~> 1.1.0)
+    activerecord (2.3.18)
+      activesupport (= 2.3.18)
+    activeresource (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
+    iconv (1.0.4)
+    kgio (2.9.2)
+    pg (0.17.1)
+    rack (1.1.6)
+    rails (2.3.18)
+      actionmailer (= 2.3.18)
+      actionpack (= 2.3.18)
+      activerecord (= 2.3.18)
+      activeresource (= 2.3.18)
+      activesupport (= 2.3.18)
+      rake (>= 0.8.3)
+    raindrops (0.13.0)
+    rake (10.3.1)
+    unicorn (4.8.2)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iconv
+  newrelic_rpm!
+  pg
+  rails (= 2.3.18)
+  rake
+  unicorn
